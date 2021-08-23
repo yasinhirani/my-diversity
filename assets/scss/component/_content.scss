@@ -1,0 +1,23 @@
+.hero-section{
+    // position: fixed;
+    background: url("../../../assets/images/image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // &::after{
+    //     position: absolute;
+    //     content: "";
+    //     top: 0;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     background-color: rgba($black, 0.3);
+    // }
+    .hero-sub{
+        background-color: rgba($white, 0.2);
+    }
+}
+.doctor-png{
+    position: absolute;
+    right: 0;
+    top: -62px;
+}
