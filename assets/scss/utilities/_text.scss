@@ -21,6 +21,17 @@
 .font-xxl {
     font-size: 26px;
 }
+.font-icon{
+    max-width: 18px;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .font-weight-medium{
     font-weight: 500;
 }

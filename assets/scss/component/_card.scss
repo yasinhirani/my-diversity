@@ -6,3 +6,13 @@
         }
     }
 }
+.avatar-img{
+    width: 60px;
+}
+.review-card{
+    transition: all .3s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}

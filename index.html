@@ -11,21 +11,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Landing Page</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
@@ -98,10 +83,10 @@
               align-items-center
             "
           >
-            <h2 class="mb-0 text-center text-white pt-5">
+            <h2 class="mb-0 text-center text-white pt-5 px-3 px-md-0">
               "Welcome to My Diversity Care"
             </h2>
-            <p class="mb-0 text-center py-4 pb-5 text-white">
+            <p class="mb-0 text-center py-4 pb-5 text-white px-3 px-md-0">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In
               explicabo suscipit perspiciatis mollitia? Adipisci vero qui hic
               ipsa. Est, quae.
@@ -141,7 +126,14 @@
         <div class="position-relative">
           <div class="doctor container d-inline-block py-4 px-5">
             <div class="d-flex flex-column align-items-center">
-              <div class="d-flex align-items-center">
+              <div
+                class="
+                  d-flex
+                  flex-column flex-sm-row
+                  justify-content-center
+                  align-items-center
+                "
+              >
                 <div
                   class="
                     apply-now
@@ -224,12 +216,12 @@
         </div>
         <div class="bg-primary">
           <h4 class="mb-0 py-4 text-center text-white">Videos and Articles</h4>
-          <div class="">
-            <div class="row pb-4 no-gutters slider px-2 px-md-5 mx-0 mx-md-5">
-              <div class="col-12">
-                <div class="cards bg-white">
+          <div class="container">
+            <div class="row pb-5">
+              <div class="col-12 col-md-3">
+                <div class="cards bg-white rounded">
                   <figure>
-                    <img src="assets/images/image.jpeg" alt="" />
+                    <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
                   <h5 class="mb-2 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -240,10 +232,10 @@
                   </p>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="cards bg-white">
+              <div class="col-12 col-md-3">
+                <div class="cards bg-white rounded">
                   <figure>
-                    <img src="assets/images/image.jpeg" alt="" />
+                    <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
                   <h5 class="mb-2 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -254,10 +246,10 @@
                   </p>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="cards bg-white">
+              <div class="col-12 col-md-3">
+                <div class="cards bg-white rounded">
                   <figure>
-                    <img src="assets/images/image.jpeg" alt="" />
+                    <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
                   <h5 class="mb-2 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -268,24 +260,10 @@
                   </p>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="cards bg-white">
+              <div class="col-12 col-md-3">
+                <div class="cards bg-white rounded">
                   <figure>
-                    <img src="assets/images/image.jpeg" alt="" />
-                  </figure>
-                  <h5 class="mb-2 px-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </h5>
-                  <p class="mb-2 px-2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Sint, quidem.
-                  </p>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="cards bg-white">
-                  <figure>
-                    <img src="assets/images/image.jpeg" alt="" />
+                    <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
                   <h5 class="mb-2 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -299,51 +277,276 @@
             </div>
           </div>
         </div>
+        <div class="bg-primary pb-5">
+          <div class="container pt-5">
+            <div class="card mb-5">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid rounded"
+                    src="assets/images/image.jpeg"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-white px-4 pt-4 pb-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Velit, aperiam?
+                    </h5>
+                    <p class="card-text text-white px-4 pb-4">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer. This content is a little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="row no-gutters">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-white px-4 pt-4 pb-3">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Velit, aperiam?
+                    </h5>
+                    <p class="card-text text-white px-4 pb-4">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer. This content is a little bit longer.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    class="img-fluid rounded"
+                    src="assets/images/image.jpeg"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h4 class="mb-0 text-uppercase text-center pt-5 pb-2">
+            What people say about us
+          </h4>
+          <p class="mb-0 text-capitalize text-center font-md text-gray-500">
+            customer reviews are important
+          </p>
+          <div class="container pb-5">
+            <div class="row my-5">
+              <div class="col-12 col-md-4">
+                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                  <div class="profile d-flex align-items-center">
+                    <figure class="mb-0">
+                      <img
+                        class="rounded-circle avatar-img border border-white"
+                        src="assets/images/avatar.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="name pl-4">
+                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                      <p class="mb-0 font-sm">CEO Company</p>
+                    </div>
+                  </div>
+                  <span
+                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                  ></span>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                    consequuntur exercitationem provident soluta nobis
+                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                    sint. Eos?
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                  <div class="profile d-flex align-items-center">
+                    <figure class="mb-0">
+                      <img
+                        class="rounded-circle avatar-img border border-white"
+                        src="assets/images/avatar.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="name pl-4">
+                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                      <p class="mb-0 font-sm">CEO Company</p>
+                    </div>
+                  </div>
+                  <span
+                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                  ></span>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                    consequuntur exercitationem provident soluta nobis
+                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                    sint. Eos?
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                  <div class="profile d-flex align-items-center">
+                    <figure class="mb-0">
+                      <img
+                        class="rounded-circle avatar-img border border-white"
+                        src="assets/images/avatar.jpg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="name pl-4">
+                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                      <p class="mb-0 font-sm">CEO Company</p>
+                    </div>
+                  </div>
+                  <span
+                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                  ></span>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                    consequuntur exercitationem provident soluta nobis
+                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                    sint. Eos?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact">
+          <h4 class="mb-0 text-uppercase text-center py-5 bg-white">
+            get in touch
+          </h4>
+        </div>
+        <div class="row bg-primary-light">
+          <div class="col-12 col-md-8">
+            <form class="border-right border-gray-500 my-5">
+              <div class="row px-4 px-md-5">
+                <div class="form-group col-12 col-md-6">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="form-group col-12 col-md-6">
+                  <label for="exampleInputPassword1">Mobile Number</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+              </div>
+              <div class="form-group mx-4 mx-md-5 mt-2">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group mx-4 mx-md-5 mt-2">
+                <label for="exampleInputEmail1">Message</label>
+                <textarea
+                  class="form-control"
+                  name="exampleInputEmail1"
+                  id="exampleInputEmail1"
+                  cols="30"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button
+                class="
+                  btn btn-warning
+                  mx-4 mx-md-5
+                  my-2
+                  rounded
+                  font-weight-medium
+                "
+              >
+                Submit Message
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="px-4 px-md-5 my-5">
+              <h5 class="mb-0 text-uppercase">contact us</h5>
+              <div class="phone d-flex align-items-center pb-2 pt-4">
+                <span class="fa fa-phone font-xl font-icon text-primary"></span>
+                <p class="mb-0 pl-4 fomt-sm font-weight-medium text-primary">
+                  +91-9059438573
+                </p>
+              </div>
+              <div class="email d-flex align-items-center py-2">
+                <span
+                  class="fa fa-envelope font-xl font-icon text-primary"
+                ></span>
+                <p class="mb-0 pl-4 fomt-sm font-weight-medium text-primary">
+                  mydiversity038@gmail.com
+                </p>
+              </div>
+              <div class="address d-flex py-2">
+                <span
+                  class="fa fa-map-marker font-icon font-xl text-primary"
+                ></span>
+                <p class="mb-0 pl-4 fomt-sm font-weight-medium text-primary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                  possimus repudiandae id provident corporis sequi?
+                </p>
+              </div>
+              <div class="social-icons d-flex align-items-center mt-5">
+                <span
+                  class="
+                    fa fa-facebook
+                    text-primary
+                    contact-icon
+                    cursor-pointer
+                    border border-primary
+                    font-xl
+                    mx-2
+                  "
+                ></span>
+                <span
+                  class="
+                    fa fa-twitter
+                    text-primary
+                    contact-icon
+                    cursor-pointer
+                    border border-primary
+                    font-xl
+                    mx-2
+                  "
+                ></span>
+                <span
+                  class="
+                    fa fa-linkedin
+                    text-primary
+                    contact-icon
+                    cursor-pointer
+                    border border-primary
+                    font-xl
+                    mx-2
+                  "
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>
-      $(".slider").slick({
-        dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: false,
-              dots: true,
-            },
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
-        ],
-      });
-    </script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
