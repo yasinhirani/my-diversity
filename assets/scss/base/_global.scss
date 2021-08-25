@@ -12,10 +12,6 @@ body {
     overflow: hidden;
 }
 // Reset
-input[type="radio"],
-input[type="checkbox"] {
-    display: none;
-}
 label{
     cursor: pointer;
 }
@@ -29,4 +25,7 @@ label{
 }
 .cursor-pointer{
     cursor: pointer;
+}
+.letter-spacing{
+    letter-spacing: .4rem;
 }

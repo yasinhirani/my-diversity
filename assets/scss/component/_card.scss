@@ -9,10 +9,21 @@
 .avatar-img{
     width: 60px;
 }
-.review-card{
+.custom-review{
     transition: all .3s ease-in-out;
     &:hover{
         cursor: pointer;
         transform: scale(1.1);
     }
 }
+.review-card{
+    transition: all .3s ease-in-out;
+    border-top-left-radius: 40%;
+}
+// .card-text{
+//     width: 600px;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 2;
+//     -webkit-box-orient: vertical;  
+//     overflow: hidden;
+// }

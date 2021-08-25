@@ -1,22 +1,3 @@
-// .topbar {
-//     .navbar-brand {
-//         width: 250px;
-//         @include media-breakpoint-down(sm) {
-//             width: 70px;
-//         }
-//         span {
-//             text-transform: uppercase;
-//             letter-spacing: 4px;
-//             font-size: 18px;
-//             &:first-child {
-//                 color: lighten($primary, 6%);
-//             }
-//             &:last-child {
-//                 color: lighten($primary, 18%);
-//             }
-//         }
-//     }
-// }
 .navbar-collapse {
     @include media-breakpoint-down(md) {
         position: absolute;
@@ -31,36 +12,5 @@
 .navbar-nav {
     .nav-link {
         color: $white;
-        // font-weight: 600;
-        // &:active,
-        // &:hover,
-        // &.active {
-        //     // color: lighten($primary, 6%);
-        // }
     }
 }
-
-
-
-
-// sub-header
-// .sub-menu {
-//     .nav-link {
-//         display: flex;
-//         color: lighten($gray-600, 14%);
-//         font-size: 14px;
-//         font-weight: 500;
-//         &:active,
-//         &:hover,
-//         &.active {
-//             color: $gray-600;
-//             border-bottom: 2px solid $primary;
-//         }
-//     }
-//     .notification-bagde {
-//         width: 10px;
-//         height: 10px;
-//         top: 8px;
-//         right: -16px;
-//     }
-// }

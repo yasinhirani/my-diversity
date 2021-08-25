@@ -1,23 +1,57 @@
 .hero-section{
-    // position: fixed;
     background: url("../../../assets/images/image.jpeg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    // &::after{
-    //     position: absolute;
-    //     content: "";
-    //     top: 0;
-    //     left: 0;
-    //     bottom: 0;
-    //     right: 0;
-    //     background-color: rgba($black, 0.3);
-    // }
     .hero-sub{
         background-color: rgba($white, 0.2);
     }
 }
+.custom-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.apply-now,.get-verified,.get-clients{
+    p{
+        white-space: nowrap;
+    }
+}
+.apply{
+    border: 3px solid $warning;
+}
+.verified{
+    border: 3px solid $success;
+}
+.clients{
+    border: 3px solid $info;
+}
 .doctor-png{
     position: absolute;
     right: 0;
-    top: -62px;
+    top: -50px;
+}
+.custom-border{
+    border-right: 1px solid $gray-500;
+    @include media-breakpoint-down(sm){
+        border: 0;
+    }
+}
+.angle-left{
+    position: absolute;
+    top: 170px;
+    left: -30px;
+}
+.angle-right{
+    position: absolute;
+    top: 170px;
+    right: -30px;
+}
+.dot-1,.dot-2,.dot-3{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
 }

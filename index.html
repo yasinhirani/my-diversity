@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- start : wrapper -->
     <div class="wrapper d-flex flex-column">
+      <!-- start: header -->
       <nav class="navbar navbar-expand-lg bg-primary py-3">
         <a class="navbar-brand text-white" href="#">MyDiversity.com</a>
         <button
@@ -61,7 +63,10 @@
           </button>
         </div>
       </nav>
+      <!-- end: header -->
+      <!-- start: main -->
       <main class="flex-grow-1 overflow-vertical bg-secondary">
+        <!-- start: hero-section -->
         <div
           class="
             hero-section
@@ -96,8 +101,10 @@
             </button>
           </div>
         </div>
+        <!-- end: hero-section -->
+        <!-- start:about -->
         <div class="about container pb-5">
-          <h4 class="mb-0 text-uppercase text-center py-5">About us</h4>
+          <h4 class="mb-0 text-uppercase text-center py-5 letter-spacing">About us</h4>
           <h3 class="mb-0 font-weight-normal pt-3 pb-3 text-center">
             We are on a mission to make people healthier,happier
           </h3>
@@ -120,8 +127,10 @@
             quidem qui dolores cum sit. Sit, hic reiciendis.
           </p>
         </div>
+        <!-- end: about -->
+        <!-- start: join -->
         <div class="join bg-white">
-          <h4 class="mb-0 text-uppercase py-5 text-center">join our network</h4>
+          <h4 class="mb-0 text-uppercase py-5 text-center letter-spacing">join our network</h4>
         </div>
         <div class="position-relative">
           <div class="doctor container d-inline-block py-4 px-5">
@@ -150,11 +159,11 @@
                       p-3
                       font-xxl
                       text-warning
-                      border border-warning
-                      rounded-circle
+                      custom-icon
+                      apply
                     "
                   ></span>
-                  <p class="mb-0 mt-2 font-weight-medium">Apply Now</p>
+                  <p class="mb-0 mt-2 font-weight-medium mb-3 mb-sm-0">Apply Now</p>
                 </div>
                 <div
                   class="
@@ -172,11 +181,11 @@
                       p-3
                       font-xxl
                       text-success
-                      border border-success
-                      rounded-circle
+                      custom-icon
+                      verified
                     "
                   ></span>
-                  <p class="mb-0 mt-2 font-weight-medium">Get Verified</p>
+                  <p class="mb-0 mt-2 font-weight-medium mb-3 mb-sm-0">Get Verified</p>
                 </div>
                 <div
                   class="
@@ -194,8 +203,8 @@
                       p-3
                       font-xxl
                       text-info
-                      border border-info
-                      rounded-circle
+                      custom-icon
+                      clients
                     "
                   ></span>
                   <p class="mb-0 mt-2 font-weight-medium">
@@ -214,67 +223,76 @@
             alt=""
           />
         </div>
+        <!-- end: join -->
+        <!-- start: video-article -->
         <div class="bg-primary">
-          <h4 class="mb-0 py-4 text-center text-white">Videos and Articles</h4>
-          <div class="container">
+          <h4 class="mb-0 py-4 text-center text-white letter-spacing">Videos and Articles</h4>
+          <div class="container position-relative">
+            <span class="fa fa-angle-left angle-left font-xxl text-white cursor-pointer d-none d-lg-inline"></span>
             <div class="row pb-5">
-              <div class="col-12 col-md-3">
-                <div class="cards bg-white rounded">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="cards bg-white rounded mb-3 mb-lg-0">
                   <figure>
                     <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
-                  <h5 class="mb-2 px-2">
+                  <h5 class="mb-3 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h5>
-                  <p class="mb-2 px-2">
+                  <p class="pb-3 px-2 mb-0">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Sint, quidem.
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-3">
-                <div class="cards bg-white rounded">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="cards bg-white rounded mb-3 mb-lg-0">
                   <figure>
                     <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
-                  <h5 class="mb-2 px-2">
+                  <h5 class="mb-3 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h5>
-                  <p class="mb-2 px-2">
+                  <p class="pb-3 px-2 mb-0">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Sint, quidem.
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-3">
-                <div class="cards bg-white rounded">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="cards bg-white rounded mb-3 mb-lg-0">
                   <figure>
                     <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
-                  <h5 class="mb-2 px-2">
+                  <h5 class="mb-3 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h5>
-                  <p class="mb-2 px-2">
+                  <p class="pb-3 px-2 mb-0">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Sint, quidem.
                   </p>
                 </div>
               </div>
-              <div class="col-12 col-md-3">
-                <div class="cards bg-white rounded">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="cards bg-white rounded mb-3 mb-lg-0">
                   <figure>
                     <img class="radius" src="assets/images/image.jpeg" alt="" />
                   </figure>
-                  <h5 class="mb-2 px-2">
+                  <h5 class="mb-3 px-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </h5>
-                  <p class="mb-2 px-2">
+                  <p class="pb-3 px-2 mb-0">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Sint, quidem.
                   </p>
                 </div>
               </div>
             </div>
+            <div class="d-flex justify-content-center align-items-center pb-4">
+              <div class="dot-1 d-none d-lg-inline cursor-pointer"></div>
+              <div class="dot-2 mx-2 d-none d-lg-inline cursor-pointer"></div>
+              <div class="dot-3 d-none d-lg-inline cursor-pointer"></div>
+            </div>
+            <span class="fa fa-angle-right angle-right font-xxl text-white cursor-pointer d-none d-lg-inline"></span>
           </div>
         </div>
         <div class="bg-primary pb-5">
@@ -329,8 +347,10 @@
             </div>
           </div>
         </div>
+        <!-- end: video-article -->
+        <!-- start: review -->
         <div class="">
-          <h4 class="mb-0 text-uppercase text-center pt-5 pb-2">
+          <h4 class="mb-0 text-uppercase text-center pt-5 pb-2 letter-spacing">
             What people say about us
           </h4>
           <p class="mb-0 text-capitalize text-center font-md text-gray-500">
@@ -339,97 +359,105 @@
           <div class="container pb-5">
             <div class="row my-5">
               <div class="col-12 col-md-4">
-                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
-                  <div class="profile d-flex align-items-center">
-                    <figure class="mb-0">
-                      <img
-                        class="rounded-circle avatar-img border border-white"
-                        src="assets/images/avatar.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div class="name pl-4">
-                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
-                      <p class="mb-0 font-sm">CEO Company</p>
+                <div class="custom-review bg-primary">
+                  <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                    <div class="profile d-flex align-items-center">
+                      <figure class="mb-0">
+                        <img
+                          class="rounded-circle avatar-img border border-white"
+                          src="assets/images/avatar.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <div class="name pl-4">
+                        <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                        <p class="mb-0 font-sm">CEO Company</p>
+                      </div>
                     </div>
+                    <span
+                      class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                    ></span>
+                    <p class="mb-0">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                      consequuntur exercitationem provident soluta nobis
+                      voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                      sint. Eos?
+                    </p>
                   </div>
-                  <span
-                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
-                  ></span>
-                  <p class="mb-0">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
-                    consequuntur exercitationem provident soluta nobis
-                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
-                    sint. Eos?
-                  </p>
                 </div>
               </div>
               <div class="col-12 col-md-4">
-                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
-                  <div class="profile d-flex align-items-center">
-                    <figure class="mb-0">
-                      <img
-                        class="rounded-circle avatar-img border border-white"
-                        src="assets/images/avatar.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div class="name pl-4">
-                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
-                      <p class="mb-0 font-sm">CEO Company</p>
+                <div class="custom-review bg-primary">
+                  <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                    <div class="profile d-flex align-items-center">
+                      <figure class="mb-0">
+                        <img
+                          class="rounded-circle avatar-img border border-white"
+                          src="assets/images/avatar.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <div class="name pl-4">
+                        <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                        <p class="mb-0 font-sm">CEO Company</p>
+                      </div>
                     </div>
+                    <span
+                      class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                    ></span>
+                    <p class="mb-0">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                      consequuntur exercitationem provident soluta nobis
+                      voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                      sint. Eos?
+                    </p>
                   </div>
-                  <span
-                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
-                  ></span>
-                  <p class="mb-0">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
-                    consequuntur exercitationem provident soluta nobis
-                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
-                    sint. Eos?
-                  </p>
                 </div>
               </div>
               <div class="col-12 col-md-4">
-                <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
-                  <div class="profile d-flex align-items-center">
-                    <figure class="mb-0">
-                      <img
-                        class="rounded-circle avatar-img border border-white"
-                        src="assets/images/avatar.jpg"
-                        alt=""
-                      />
-                    </figure>
-                    <div class="name pl-4">
-                      <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
-                      <p class="mb-0 font-sm">CEO Company</p>
+                <div class="custom-review bg-primary">
+                  <div class="review-card bg-white p-4 shadow mb-3 mb-md-0">
+                    <div class="profile d-flex align-items-center">
+                      <figure class="mb-0">
+                        <img
+                          class="rounded-circle avatar-img border border-white"
+                          src="assets/images/avatar.jpg"
+                          alt=""
+                        />
+                      </figure>
+                      <div class="name pl-4">
+                        <h5 class="mb-0 pb-1 font-lg">Jonathen Doe</h5>
+                        <p class="mb-0 font-sm">CEO Company</p>
+                      </div>
                     </div>
+                    <span
+                      class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
+                    ></span>
+                    <p class="mb-0">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Blanditiis corporis accusamus optio, minus amet animi. Sunt,
+                      consequuntur exercitationem provident soluta nobis
+                      voluptatum fugiat earum explicabo, magnam eveniet dolorum
+                      sint. Eos?
+                    </p>
                   </div>
-                  <span
-                    class="fa fa-quote-left pt-5 pb-3 text-warning pl-2"
-                  ></span>
-                  <p class="mb-0">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Blanditiis corporis accusamus optio, minus amet animi. Sunt,
-                    consequuntur exercitationem provident soluta nobis
-                    voluptatum fugiat earum explicabo, magnam eveniet dolorum
-                    sint. Eos?
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- end: review -->
+        <!-- start: contact -->
         <div class="contact">
-          <h4 class="mb-0 text-uppercase text-center py-5 bg-white">
+          <h4 class="mb-0 text-uppercase text-center py-5 bg-white letter-spacing">
             get in touch
           </h4>
         </div>
-        <div class="row bg-primary-light">
-          <div class="col-12 col-md-8">
-            <form class="border-right border-gray-500 my-5">
+        <div class="row bg-primary-light no-gutters">
+          <div class="col-12 col-md-6 col-lg-7">
+            <form class="custom-border my-5">
               <div class="row px-4 px-md-5">
                 <div class="form-group col-12 col-md-6">
                   <label for="exampleInputEmail1">Email address</label>
@@ -481,8 +509,8 @@
               </button>
             </form>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="px-4 px-md-5 my-5">
+          <div class="col-12 col-md-6 col-lg-5">
+            <div class="mx-4 px-md-5 my-5">
               <h5 class="mb-0 text-uppercase">contact us</h5>
               <div class="phone d-flex align-items-center pb-2 pt-4">
                 <span class="fa fa-phone font-xl font-icon text-primary"></span>
@@ -545,8 +573,11 @@
             </div>
           </div>
         </div>
+        <!-- end: contact -->
       </main>
+      <!-- end: main -->
     </div>
+    <!-- end : wrapper -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
